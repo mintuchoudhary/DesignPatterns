@@ -5,7 +5,7 @@ package com.structural.fascade;
  * It hides the complexities of the system and provides an interface to the client from where the client can access the system.
  * */
  
-public class FascadeMain {
+public class FacadeMain {
 	public static void main(String[] args) {
 		HotelKeeper keeper = new HotelKeeper();
 
