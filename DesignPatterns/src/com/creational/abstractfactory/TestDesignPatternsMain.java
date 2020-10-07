@@ -18,3 +18,11 @@ public class TestDesignPatternsMain {
 	}
  
 }
+
+class ComputerFactory {
+
+	public static Computer getComputer(ComputerAbstractFactory factory) {
+		
+		return factory.createComputer();
+	}
+}
